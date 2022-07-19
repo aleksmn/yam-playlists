@@ -1,7 +1,4 @@
 import time
-import requests
-import csv
-from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import pandas as pd
