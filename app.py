@@ -20,6 +20,12 @@ driver = webdriver.Chrome()
 
 driver.get(URL)
 
+# Закрыть рекламное окно
+try:
+  driver.find_element("class name", "d-icon_cross-big").click()
+except:
+  pass
+
 def scroll_page(n=5):
   element = driver.find_element("tag name", 'body')
   for i in range(n):
