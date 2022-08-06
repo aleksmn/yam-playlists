@@ -4,8 +4,8 @@ from selenium.webdriver.common.keys import Keys
 import pandas as pd
 
 URL = input(
-    "Введите ссылку на плейлист: ") or "https://music.yandex.ru/users/al-mn/playlists/1044"
-CSV_FILE_NAME = input("Введите название файла: ") or "indie"
+    "Введите ссылку на плейлист: ") or "https://music.yandex.com/users/yamusic-top/playlists/1035"
+CSV_FILE_NAME = input("Введите название файла: ") or "Electronica-best"
 
 # Количество прокруток (увеличить, если не доходит до конца плейлиста):
 SCROLL_COUNT = 5
