@@ -31,11 +31,11 @@ def scroll_page(n=5):
     element = driver.find_element("tag name", 'body')
     for i in range(n):
         element.send_keys(Keys.PAGE_DOWN)
-        time.sleep(0.2)
+        time.sleep(0.1)
 
 
 for n in range(SCROLL_COUNT):
-    time.sleep(1)
+    time.sleep(0.1)
 
     tracks = driver.find_elements("class name", "d-track")
 
