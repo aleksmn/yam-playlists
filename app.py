@@ -12,7 +12,7 @@ SCROLL_COUNT = 5
 
 track_list = []
 
-# Using Selenium
+# Selenium
 
 driver = webdriver.Chrome()
 
